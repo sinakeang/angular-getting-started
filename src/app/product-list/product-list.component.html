@@ -15,4 +15,7 @@
     Share
   </button>
 
+  <!-- [product] is property binding the value from "product" -->
+  <!-- "onNotify()" will receive output from the product alert thru (notify) event binding -->
+  <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
 </div>
